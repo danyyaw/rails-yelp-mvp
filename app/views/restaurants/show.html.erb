@@ -1,0 +1,21 @@
+
+      <h1><%= @restaurant.name %></h1>
+        <tbody>
+          <tr>
+            <th>Address</th>
+            <td><%= @restaurant.address %></td>
+          </tr>
+          <tr>
+            <th>Phone Number</th>
+            <td><%= @restaurant.phone_number %></td>
+          </tr>
+          <tr>
+            <th >Category</th>
+            <td><%= @restaurant.category %></td>
+          </tr>
+        </tbody>
+      </table>
+      <%= link_to "See all restaurants", restaurants_path %>
+    </div>
+  </div>
+</div>
